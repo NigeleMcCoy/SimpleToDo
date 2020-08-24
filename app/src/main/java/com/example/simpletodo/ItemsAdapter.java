@@ -40,6 +40,7 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.viewHolder> 
         // Use layout to inflate a view
        View todoView =  LayoutInflater.from(parent.getContext()).inflate(android.R.layout.simple_list_item_1, parent, false);
         return new viewHolder(todoView);
+        //
     }
 
     @Override
